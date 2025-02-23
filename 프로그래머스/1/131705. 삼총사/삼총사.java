@@ -7,6 +7,7 @@ class Solution {
                 for (int k = j+1; k < number.length; k++) {
                     if (number[i] + number[j] + number[k] == 0) {
                         answer++;
+                        
                     }
                 }
             }
